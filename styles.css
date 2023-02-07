@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.hero, footer{
+    background: #1F2937;
+    color: #F9FAF8;
+    overflow: hidden;
+}
+
+.hero {
+    height: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero, .call-to-action{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 16px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 40%;
+    overflow-wrap: normal;
+}
+
+.hero-text p, button {
+    font-size: 24px;
+}
+
+.hero img {
+    max-width: 700px;
+    max-height: 400px;
+    padding-left: 50px;
+}
+
+button,  .call-to-action-container{
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: white;
+}
+
+.hero button {
+    border: none;
+}
+
+button {
+    padding: 12px 28px;
+    font-weight: bold;
+}
+
+.information {
+    padding: 50px 300px 75px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.kitty-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    width: 250px;
+}
+
+.information h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.information img {
+   width: 250px;
+   height: 250px;
+   border: 0.25rem solid #3882F6;
+   border-radius: 25px;
+}
+
+.information p {
+    text-align: center;
+    overflow-wrap: break-word;
+    width: 75%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote h4 {
+    padding-left: 60%;
+    font-size: 24px;
+}
+
+.call-to-action {
+    padding: 150px 250px;
+}
+
+.call-to-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-to-action-text {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.call-to-action button {
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
